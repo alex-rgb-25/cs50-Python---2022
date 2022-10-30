@@ -9,9 +9,11 @@ try:
 except ValueError:
     sys.exit("Command-line argument is not a number")
 
-response = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
+try:
+    response = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
+    curValue = float(response.json()["bpi"]["USD"]["rate_float"])
+    total = curValue * n
+    print(f"${total:,.4f}")
 
-curValue = float(response.json()["bpi"]["USD"]["rate_float"])
-
-total = curValue * n
-print(f"${total:,.4f}")
+except requests.RequestException:
+    print("Wrong url")

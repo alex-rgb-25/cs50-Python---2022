@@ -1,13 +1,6 @@
 Frank, Ian and Glen’s Letters
 
-FIGlet, named after Frank, Ian, and Glen’s letters, is a program from the early 1990s for making large letters out of ordinary text, a form of ASCII art:
-
- _ _ _          _   _     _
-| (_) | _____  | |_| |__ (_)___
-| | | |/ / _ \ | __| '_ \| / __|
-| | |   <  __/ | |_| | | | \__ \
-|_|_|_|\_\___|  \__|_| |_|_|___/
-
+FIGlet, named after Frank, Ian, and Glen’s letters, is a program from the early 1990s for making large letters out of ordinary text, a form of ASCII art.
 Among the fonts supported by FIGlet are those at figlet.org/examples.html.
 
 FIGlet has since been ported to Python as a module called pyfiglet.

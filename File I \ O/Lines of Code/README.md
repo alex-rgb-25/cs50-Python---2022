@@ -12,10 +12,10 @@ has just two lines of code, not four, since its first line is a comment, and its
 That’s not that many, so odds are the program isn’t that complex. Of course, just because a program (or even function) has more 
 lines of code than another doesn’t necessarily mean it’s more complex. For instance, a function like
 
-def is_even(n):
-    if n % 2 == 0:
-        return True
-    else:
+def is_even(n):<br/>
+    if n % 2 == 0:<br/>
+        return True<br/>
+    else:<br/>
         return False
 
 isn’t really twice as complex as a function like

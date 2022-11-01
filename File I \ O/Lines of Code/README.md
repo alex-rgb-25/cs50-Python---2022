@@ -5,7 +5,7 @@ For instance, a program like
 
  \# Say hello
 
-name = input("What's your name? ")
+name = input("What's your name? ") <br/>
 print(f"hello, {name}")
 
 has just two lines of code, not four, since its first line is a comment, and its second line is blank (i.e., just whitespace). 

@@ -13,10 +13,10 @@ That’s not that many, so odds are the program isn’t that complex. Of course,
 lines of code than another doesn’t necessarily mean it’s more complex. For instance, a function like
 
 def is_even(n):<br/>
-    if n % 2 == 0:<br/>
-        return True<br/>
-    else:<br/>
-        return False
+ ( &nbsp; )    if n % 2 == 0:<br/>
+   ( &nbsp; ) ( &nbsp; )      return True<br/>
+   ( &nbsp; )  else:<br/>
+    ( &nbsp; ) ( &nbsp; )     return False
 
 isn’t really twice as complex as a function like
 

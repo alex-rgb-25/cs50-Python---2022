@@ -3,7 +3,7 @@ Lines of Code
 One way to measure the complexity of a program is to count its number of lines of code (LOC), excluding blank lines and comments. 
 For instance, a program like
 
- # Say hello
+ \# Say hello
 
 name = input("What's your name? ")
 print(f"hello, {name}")
